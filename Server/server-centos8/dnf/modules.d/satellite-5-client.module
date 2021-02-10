@@ -1,0 +1,5 @@
+[satellite-5-client]
+name=satellite-5-client
+profiles=
+state=enabled
+stream=1.0

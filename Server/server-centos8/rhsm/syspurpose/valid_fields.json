@@ -1,0 +1,15 @@
+{
+    "role": [
+      "CentOS Linux Server",
+      "CentOS Linux Workstation",
+      "CentOS Linux Compute Node"
+    ],
+    "service_level_agreement": [
+      "Self-Support"
+    ],
+    "usage": [
+      "Production",
+      "Development/Test",
+      "Disaster Recovery"
+    ]
+}

@@ -1,0 +1,15 @@
+﻿<Window x:Class="LoginWindow.BrowsePetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginWindow"
+        mc:Ignorable="d"
+        Title="BrowsePetWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lstPets" HorizontalAlignment="Left" Height="201" Margin="76,44,0,0" VerticalAlignment="Top" Width="668"/>
+        <Button x:Name="btnSelect" Content="Select" HorizontalAlignment="Left" Margin="219,301,0,0" VerticalAlignment="Top" Width="103" Height="37" Click="BtnSelect_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="455,301,0,0" VerticalAlignment="Top" Width="100" Height="37" Click="BtnCancel_Click"/>
+
+    </Grid>
+</Window>

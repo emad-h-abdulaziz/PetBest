@@ -1,0 +1,2 @@
+mysqldump --databases Pet_Best --user=phpmyadmin --password=CIS294serverteam > /home/webteam/Pet_Best.sql
+zip /home/www/database-files/Pet_Best.zip /home/webteam/Pet_Best.sql

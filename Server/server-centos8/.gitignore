@@ -1,0 +1,14 @@
+*~
+*.bak
+adjtime
+aliases.db
+blkid/blkid.tab*
+cups/printers.conf.O
+group-
+gshadow-
+ld.so.cache
+lvm/cache/
+passwd-
+passwd.OLD
+prelink.cache
+shadow-

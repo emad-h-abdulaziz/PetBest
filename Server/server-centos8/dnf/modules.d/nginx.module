@@ -1,0 +1,5 @@
+[nginx]
+name=nginx
+stream=1.14
+profiles=
+state=enabled

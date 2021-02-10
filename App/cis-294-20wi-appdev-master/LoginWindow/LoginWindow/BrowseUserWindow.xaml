@@ -1,0 +1,16 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginWindow"
+        xmlns:ApiClasses="clr-namespace:LoginWindow.ApiClasses" x:Name="frmBrowseUser" x:Class="LoginWindow.BrowseUserWindow"
+        mc:Ignorable="d"
+        Title="Browse User" Height="414" Width="542" Background="#FF464A4F" FontFamily="Lucida Fax" >
+    <Grid>
+        <ListBox x:Name="lstUsers" HorizontalAlignment="Left" Height="228" Margin="55,42,0,0" VerticalAlignment="Top" Width="430" FontFamily="Lucida Fax" Background="#FFEEEFF1"/>
+        <Button x:Name="btnSelect" Content="Select" HorizontalAlignment="Left" Margin="165,307,0,0" VerticalAlignment="Top" Width="80" Click="BtnSelect_Click" FontFamily="Lucida Fax" Height="28"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="296,307,0,0" VerticalAlignment="Top" Width="79" IsCancel="True" Click="BtnCancel_Click" FontFamily="Lucida Fax" Height="28"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+config.php
+documentation/
+vendor/
+.DS_Store
+._*

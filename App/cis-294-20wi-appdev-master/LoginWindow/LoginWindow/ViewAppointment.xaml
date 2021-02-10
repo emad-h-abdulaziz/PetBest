@@ -1,0 +1,28 @@
+﻿<Window x:Class="LoginWindow.ViewAppointment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginWindow"
+        mc:Ignorable="d"
+        Title="ViewAppointment" Height="527.881" Width="294.055" Loaded="Window_Loaded" Background="#FF464A4F">
+    <Grid Margin="0,0,4,1.8" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="42*"/>
+            <ColumnDefinition Width="29*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="View Appointment" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="71,23,0,0" Grid.ColumnSpan="2" FontFamily="Lucida Fax" Foreground="#FFEEEFF1"/>
+        <Button x:Name="btnCancel" Content="Done" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="91,442,0,0" Height="27" Click="BtnCancel_Click" Grid.ColumnSpan="2" FontFamily="Lucida Fax"/>
+        <Label Content="Customer Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="71,74,0,0" Grid.ColumnSpan="2" FontFamily="Lucida Fax" Foreground="#FFEEEFF1"/>
+        <TextBox x:Name="txtCustomerName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="71,105,0,0" IsReadOnly="True" Grid.ColumnSpan="2" Background="#FFF6F3F3" FontFamily="Lucida Fax"/>
+        <Label Content="Order ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="71,146,0,0" FontFamily="Lucida Fax" Foreground="#FFEEEFF1"/>
+        <TextBox x:Name="txtOrderId" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="71,177,0,0" IsReadOnly="True" Grid.ColumnSpan="2" Background="#FFF6F3F3" FontFamily="Lucida Fax"/>
+        <Label Content="Service:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="71,285,0,0" FontFamily="Lucida Fax" Foreground="#FFEEEFF1"/>
+        <TextBox x:Name="txtService" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="71,316,0,0" IsReadOnly="True" Grid.ColumnSpan="2" Background="#FFF6F3F3" FontFamily="Lucida Fax"/>
+        <TextBox x:Name="txtCategory" HorizontalAlignment="Left" Height="23" Margin="71,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True" Grid.ColumnSpan="2" Background="#FFF6F3F3" FontFamily="Lucida Fax"/>
+        <Label Content="Category:" HorizontalAlignment="Left" Margin="71,218,0,0" VerticalAlignment="Top" FontFamily="Lucida Fax" Foreground="#FFEEEFF1"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Height="23" Margin="71,384,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True" Grid.ColumnSpan="2" Background="#FFF6F3F3" FontFamily="Lucida Fax"/>
+        <Label Content="Price:" HorizontalAlignment="Left" Margin="71,353,0,0" VerticalAlignment="Top" FontFamily="Lucida Fax" Foreground="#FFEEEFF1"/>
+
+    </Grid>
+</Window>
